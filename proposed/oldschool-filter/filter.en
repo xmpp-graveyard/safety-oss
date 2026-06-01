@@ -1,0 +1,40 @@
+muc-filter control system
+{command} ([option] [on/off/number])
+*/{command}
+Bot would show current bot filter config.
+*/{command} (adv) on
+Bot will block and ban advertisements. [default: on]
+*/{command} (lnick) 30
+Bot will block user nick if it more than 30. [default: 30]
+*/{command} (lmsg) 300
+Bot will block and ban messages more than 300. [default: 300]
+*/{command} (pvlock) on
+Bot will disable private for all users. [default: off]
+*/{command} (censor) on
+Bot will filter censor words. [default: on]
+*/{command} (history) on
+Bot will filter room from spam bots. [default: on]
+*/{command} (pmlock) on
+Bot will filter user's private personally. [default: off for all], pvlock must be disabled to enable that option.
+*/{command} (repeat) 3
+Bot will block and kick any one who repeat same message 3 times in 10 secs. [default: 3]
+*/{command} (lstat) 500
+Bot will remove any status which length  more than 500
+*/{command} (lres) 20
+Bot will deny joining with long resource
+*/{command} (cens_add/cens_del) bitch
+Bot will add or remove bad word from filter's list
+*/{command} (cens_list)
+Bot will show censored words list
+*/{command} (cens_clear)
+Bot will clear censor list
+*/{command} fastmsg 5
+Bot will kick for 3 messages sent in time less than value. From 1 to 1000.
+*/{command} (fastjoin) on
+Bot will ban each one who joining fast. Fast means more than 3 joins in 10 secs.
+*/{command} pastebin 300
+Bot will send messages to paste.matrixteam.org which length more than changed value. From 300 to 1499.
+*/{command} same 3
+Number of similar sentences causes ban
+*/{command} mention
+Limit of mentions causes ban

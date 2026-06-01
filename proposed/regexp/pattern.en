@@ -1,0 +1,10 @@
+Just pattern. Its easy and powerful. Can kick/ban or set member rights by resource, nick or jid (as you like). Magic char is *. Escape char is \ (\*). PATTERNS ARE CASE SENSITIVE!
+{command} [add/del] [jid/nick] *@*/* [kick/ban/member/visitor/filter]
+*/{command}
+Bot will show patterns for this room
+*/{command} add jid troll@*/Psi+ kick
+Bot will kick anyone whose jid matches this pattern. It will match troll@any_server/Psi+.
+*/{command} add nick tralliza* kick
+Bot will kick anyone whose nick starts with tralliza. F.e. tralliza9000, trallizaAAAAAAAA and others.
+*/{command} del jid *@jabber.ru/Psi+
+bot will delete this JID pattern

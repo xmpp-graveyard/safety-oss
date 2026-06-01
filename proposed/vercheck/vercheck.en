@@ -1,0 +1,8 @@
+Vercheck allows to make several actions on users according to their version
+{command} [add/del/set/show/list] [name/os] [kick/ban/visitor/filter] <name or os>
+*/{command} list
+Bot will show the list of version rules for this room
+*/{command} add name ban Talkonaut
+Bot will ban everyone who has Talkonaut in their version name.
+*/{command} del name Talkonaut ban
+Bot will remove the rule that matches name Talkonaut and action ban
